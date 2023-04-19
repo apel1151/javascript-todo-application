@@ -25,6 +25,9 @@ section.todo-outer h1 {
     font-size: 40px;
     margin-bottom: 20px;
 }
+.header{
+    margin-left: 80px;
+}
 .todo-inner {
     width: 100%;
     float: left;
@@ -39,3 +42,47 @@ table tr td button {
     cursor: pointer;
 }
 .completed{text-decoration: line-through;}
+
+@media screen and (max-width: 1000px){
+    .header{
+        margin-left: 20px;
+        width: 110%;
+     }
+     .taskinput{
+         margin-left: 60px;
+      }
+     .btnarea{
+         margin-top: 40px;
+         margin-left: 110px;
+     }
+}
+
+@media screen and (max-width: 700px) {
+    .header{
+       margin-left: 20px;
+       width: 110%;
+    }
+    .taskinput{
+        margin-left: 60px;
+     }
+    .btnarea{
+        margin-top: 40px;
+        margin-left: 110px;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    .header{
+        margin-left: 20px;
+        width: 110%;
+        font-size: 20px;
+    }
+    .taskinput{
+        margin-left: 60px;
+     }
+    .btnarea{
+        margin-top: 40px;
+        margin-left: 110px;
+        
+    }
+  }

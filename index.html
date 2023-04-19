@@ -30,22 +30,24 @@
     <div class="container">
       <div class="row justify-content-md-center">
         <div class="col-sm-12 col-md-8">
-          <h1>Welcome in Todo List Application</h1>
+          <h1 class="header">Welcome in Todo Application</h1>
           <div class="todo-inner">
-            <div class="form-row">
+            <div class="form-row taskArea">
               <div class="col-8 mr-sm-2">
-                <input type="text" class="form-control" placeholder="Enter your task" id="addtaskinput" />
+                <input type="text" class="form-control taskinput" placeholder="Enter your task" id="addtaskinput" />
                 <input type="hidden" id="saveindex">
               </div>
-              <button type="button" class="btn btn-success mr-sm-2" id="addtaskbtn">
-                Add Task
-              </button>
-              <button type="button" class="btn btn-success mr-sm-2" id="savetaskbtn" style="display: none;">
-                Save Task
-              </button>
-              <button type="button" id="deleteallbtn" class="btn btn-danger">
-                Delete All
-              </button>
+             <div class="btnarea">
+                <button type="button" class="btn btn-success mr-sm-2" id="addtaskbtn">
+                  Add Task
+                </button>
+                <button type="button" class="btn btn-success mr-sm-2" id="savetaskbtn" style="display: none;">
+                  Save Task
+                </button>
+                <button type="button" id="deleteallbtn" class="btn btn-danger">
+                  Delete All
+                </button>
+             </div>
             </div>
             <div class="to-do-output">
               <table class="table table-striped mt-3 mb-0" id="addedtasklist">
